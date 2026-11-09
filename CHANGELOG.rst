@@ -4,6 +4,8 @@ Changes
 Next release
 ------------
 
+- Export Invoices, CreditNotes and ManualJournals with pagination to include document lines.
+
 - Add resumable Files API exports for uploaded attachments, inbox files, metadata,
   folders and document associations, with size/hash validation and explicit quota failure.
 

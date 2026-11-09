@@ -104,6 +104,14 @@ __ https://jsonlines.org/
 For the complete file structure, see :doc:`usage`.
 
 
+Document line details
+---------------------
+
+Invoices, CreditNotes and ManualJournals use paginated requests to include document
+lines. Re-export old summary-only data; these endpoints are fetched in full even
+with ``--update``. Use a staging directory because direct exports can be partial
+after a failed request.
+
 Fixed assets
 ------------
 
